@@ -1,0 +1,25 @@
+.mainDiv {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    gap: 10px;
+}
+
+.opList {
+    text-align: center;
+    font-size: 20px;
+}
+
+.inputStyle {
+    text-align: center;
+    font-size: 20px;
+}
+
+.btnStyle {
+    font-size: large;
+}
+
+.resultStyle {
+    font-size: larger;
+    color: transparent;
+}

@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Calculator V.2</title>
+    <link rel="stylesheet" href="./Styles/style.css" />
+  </head>
+  <body>
+    <div class="mainDiv">
+      <h1>Calculator 2nd Version</h1>
+      <input type="text" id="firstValue" class="inputStyle" />
+      <select name="operations" id="operation" class="opList">
+        <option value="addition">+</option>
+        <option value="subtraction">-</option>
+        <option value="multiplication">x</option>
+        <option value="division">÷</option>
+      </select>
+      <input type="text" id="secondValue" class="inputStyle" />
+      <button type="button" class="btnStyle" onclick="calculate();">
+        Calculate
+      </button>
+      <p id="result" class="resultStyle">Reslult</p>
+    </div>
+    <script src="./JS/calculations.js"></script>
+  </body>
+</html>
